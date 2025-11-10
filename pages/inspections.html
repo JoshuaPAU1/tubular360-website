@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inspection Services | Tubular 360</title>
+
+  <link rel="shortcut icon" href="../assets/img/android-chrome-192x192.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+
+  <style>
+    /* Navbar styling */
+    .nav-link {
+      transition: color 0.3s ease;
+    }
+
+
+    /* Hero section */
+    .hero-section {
+      height: 80vh;
+      background: url("../assets/img/Inspection.webp") center center / cover no-repeat;
+      position: relative;
+    }
+    .hero-section::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(255, 204, 0, 0.1));
+    }
+    .hero-section h1 {
+      position: relative;
+      z-index: 1;
+      color: #d40511;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    @media (max-width: 640px) {
+      .hero-section {
+        height: 50vh;
+      }
+    }
+
+    footer a:hover {
+      color: #fff !important;
+    }
+
+    /* Accent divider */
+    .section-divider {
+      width: 80px;
+      height: 4px;
+      background-color: #d40511;
+      margin: 10px auto 30px;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffcc00;">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html" style="width: 100px;">
+          <img src="../assets/img/logo.webp" alt="Tubular 360 Logo" class="img-fluid" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="./training.html">Training</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./inspections.html">Inspections</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-section d-flex align-items-center justify-content-center text-center">
+    <h1 class="display-4 fw-bold mb-3">Inspections</h1>
+  </section>
+
+  <!-- Introduction -->
+  <section style="background-color:#FFCC00;">
+    <div class="container">
+      <div>
+      <h2 class="text-center fw-bold">Inspection Services</h2>
+      <div class="section-divider"></div>
+      <p class="fs-5 text-center mb-5">
+        At <strong>Tubular 360</strong>, we provide industry-leading inspection services designed to ensure the reliability, safety, and efficiency of your oil and gas operations. Our team of certified professionals is dedicated to delivering precision, integrity, and trust — every single time.
+      </p>
+      </div>
+      
+
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <img src="../assets/img/services.webp" alt="Inspection Team" class="img-fluid rounded shadow" />
+        </div>
+        <div class="col-lg-6">
+          <h4 class="fw-bold text-danger">Comprehensive Inspection Solutions</h4>
+          <p class="fs-5">
+            Our inspection services cover the full range of tubular goods and oilfield tools. Using advanced non-destructive testing methods and the latest technology, we ensure all equipment meets operational and safety standards before deployment.
+          </p>
+          <ul class="fs-5">
+            <li><i class="bi bi-check-circle-fill text-danger me-2"></i> Material Inspection</li>
+            <li><i class="bi bi-check-circle-fill text-danger me-2"></i> Nondestructive Testing (NDT)</li>
+            <li><i class="bi bi-check-circle-fill text-danger me-2"></i> Visual Inspection</li>
+            <li><i class="bi bi-check-circle-fill text-danger me-2"></i> Tools Inspection</li>
+            <li><i class="bi bi-check-circle-fill text-danger me-2"></i> OCTG Inspection</li>
+            <li><i class="bi bi-check-circle-fill text-danger me-2"></i> Pressure Testing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="bg-light">
+    <div class="container">
+      <h2 class="text-center fw-bold">Why Choose Tubular 360?</h2>
+      <div class="section-divider"></div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h5 class="text-danger fw-bold"><i class="bi bi-award-fill me-2"></i> Certified Expertise</h5>
+            <p>Our inspectors are trained and certified to international standards, bringing years of technical experience and field knowledge to every project.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h5 class="text-danger fw-bold"><i class="bi bi-gear-fill me-2"></i> Advanced Technology</h5>
+            <p>We use state-of-the-art inspection tools and digital reporting systems that ensure accuracy, traceability, and efficiency in every inspection.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h5 class="text-danger fw-bold"><i class="bi bi-people-fill me-2"></i> Client-Focused Approach</h5>
+            <p>We understand your operational demands and tailor our inspection programs to align with your safety requirements, schedules, and budgets.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="text-center" style="background-color:#FFCC00;">
+    <div class="container">
+      <h3 class="fw-bold mb-3 text-danger">Ready to Schedule Your Next Inspection?</h3>
+      <p class="fs-5 mb-4">Let our experts help you ensure the integrity and performance of your tubular goods and oilfield tools.</p>
+      <a href="./contact.html" class="btn btn-danger btn-lg rounded-pill px-4">
+        <i class="bi bi-envelope-fill me-2"></i> Contact Us Today
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <p class="mb-2">&copy; 2024 Tubular 360. All rights reserved.</p>
+
+      <p class="mb-4">
+        Call us at
+        <a href="tel:+1234567890" class="text-warning text-decoration-none fw-semibold">+1234567890</a>
+        or email
+        <a href="mailto:info@tubular360.com" class="text-warning text-decoration-none fw-semibold">info@tubular360.com</a>
+      </p>
+
+      <ul class="list-inline mb-4">
+        <li class="list-inline-item mx-2"><a href="../pages/about.html" class="text-white text-decoration-none">About</a></li>
+        <li class="list-inline-item mx-2"><a href="./contact.html" class="text-white text-decoration-none">Contact</a></li>
+        <li class="list-inline-item mx-2"><a href="./services.html" class="text-white text-decoration-none">Services</a></li>
+        <li class="list-inline-item mx-2"><a href="./training.html" class="text-white text-decoration-none">Training</a></li>
+      </ul>
+
+      <div class="d-flex justify-content-center gap-3 fs-4">
+        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
